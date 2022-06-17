@@ -130,4 +130,4 @@ async def genzmeme(ctx):
 
 
 client.loop.create_task(change_presence())
-client.run("OTg3MDE2MDY1NzE4NTc5MjIw.G_qbTG.HrBD8CGzshdeIEuu1RloAMwKK6u1XaL0e5auEs")
+client.run(os.environ["DISCORD-TOKEN"])
